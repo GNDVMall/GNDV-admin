@@ -24,6 +24,6 @@ public class MemberService {
         return memberMapper.findAddressById(id);
     }
     public List<Member> findAllMember(){
-        return memberMapper.findMemberByEmail();
+        return memberMapper.findAllMember();
     }
 }

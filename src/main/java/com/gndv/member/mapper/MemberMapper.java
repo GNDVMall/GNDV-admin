@@ -21,6 +21,6 @@ public interface MemberMapper {
     Optional<Member> findMemberByEmail(String email);
 
     @Select("SELECT * FROM Member ")
-    List<Member> findMemberByEmail();
+    List<Member> findAllMember();
 
 }
